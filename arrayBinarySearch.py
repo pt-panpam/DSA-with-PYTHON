@@ -12,4 +12,5 @@ def binarySearch(array,key):
     return -1
 array=[12,23,343,565,24,56]
 key=565
-print("Number is at index",binarySearch(array,key))
+binarySearch(array,key)
+print("Number is at index",array)
